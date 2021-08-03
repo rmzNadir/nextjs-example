@@ -16,6 +16,7 @@ const withTM = require('next-transpile-modules')([
   'mdast-util-to-markdown',
   'zwitch',
   'longest-streak',
+  'mdast-util-from-markdown',
 ]);
 
 module.exports = withTM();
